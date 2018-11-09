@@ -56,17 +56,17 @@ export default [
       {
         id:0,
         subject: 'Web Programming and Data Management',
-        grade: 'C'
+        grade: 'A'
       },
       {
         id:1,
-        subject: 'English',
-        grade: 'C'
+        subject: 'Mobile Application Development',
+        grade: 'B'
       },
       {
         id:2,
-        subject: 'Science',
-        grade: 'C'
+        subject: 'Artificial Intelligence',
+        grade: 'A'
       }
     ]
   },
