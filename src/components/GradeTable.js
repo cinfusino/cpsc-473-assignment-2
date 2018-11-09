@@ -2,12 +2,9 @@ import React from 'react'
 
 export default ({data, favorites}) => {
   const namesList = favorites.map(id => {
-    const courseList = data[id].courses.map(courseIndex => {
-
-    })
     return (
       <tr>
-        <td>courses[]</td>
+        <td></td>
         <td></td>
       </tr>
     )

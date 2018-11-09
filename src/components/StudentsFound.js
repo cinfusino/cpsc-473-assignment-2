@@ -7,9 +7,9 @@ export default ({ data, filterText }) => {
         <li key={student.id} className="students-found-li">{student.firstName} {student.lastName}</li>
       )
     }
-    return (
-      <li></li>
-    )
+      return (
+        <li></li>
+      )
     })
 
     //<p>filterText value is: {this.props.filterText} </p> PLACE THIS AFTER FIRST <div> IN RETURN() TO SEE
@@ -21,4 +21,4 @@ export default ({ data, filterText }) => {
         </ul>
       </div>
     );
-  }
+}
