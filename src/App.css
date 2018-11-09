@@ -3,11 +3,13 @@
   flex-direction: column;
   border-style: solid;
   align-items: center;
+  cursor: default;
+  min-width: 100%;
 }
 
 .top-box {
   display: flex;
-  border-style: solid;
+  margin: 10px;
 }
 
 .bottom-box {
@@ -18,14 +20,49 @@
 
 .bottom-left-box {
   border-style: solid;
-  align-items: center;
+  padding: 10px;
+}
+
+.bottom-right-box {
+  border-style: solid;
 }
 
 .bottom-left-box ul {
   list-style: none;
+  padding: 0;
 }
 
+.students-found-li {
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 2px;
+  border-color: black;
+  margin: 5px;
+  padding: 2.5px;
+}
+.students-found-li:hover {
+  background-color: #75aaff;
+  cursor: pointer;
+}
 
 .bottom-right-box {
+  align-items: center;
+}
 
+table {
+  border-collapse: collapse;
+  margin: 12px;
+}
+
+table, th, td {
+  border: 2px solid black;
+  text-align: center;
+}
+
+th, td {
+  padding: 5px;
+}
+
+.title {
+  text-align: center;
 }

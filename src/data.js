@@ -5,82 +5,112 @@ export default [
     lastName: 'Infusino',
     courses: [
       {
-        subject: 'Math',
+        id:0,
+        subject: 'Theory of Computation',
         grade: 'A'
       },
       {
-        subject: 'English',
+        id:1,
+        subject: 'Software Design',
         grade: 'A'
       },
       {
-        subject: 'Science',
+        id:3,
+        subject: 'Software Testing',
+        grade: 'A'
+      },
+      {
+        id:4,
+        subject: 'Web Programming and Data Management',
+        grade: 'A'
+      }
+    ]
+  },
+  {
+    id: 1,
+    firstName: 'Daniel',
+    lastName: 'Domingo',
+    courses: [
+      {
+        id:0,
+        subject: 'Web Programming and Data Management',
+        grade: 'A'
+      },
+      {
+        id:1,
+        subject: 'Game Programming',
+        grade: 'B'
+      },
+      {
+        id:2,
+        subject: 'Philosophy',
         grade: 'A'
       }
     ]
   },
   {
     id: 2,
-    firstName: 'Daniel',
-    lastName: 'Domingo',
+    firstName: 'Jared',
+    lastName: 'Fipps',
     courses: [
       {
+        id:0,
+        subject: 'Web Programming and Data Management',
+        grade: 'C'
+      },
+      {
         id:1,
-        subject: 'Math',
-        grade: 'B'
+        subject: 'English',
+        grade: 'C'
       },
       {
         id:2,
-        subject: 'English',
-        grade: 'B'
-      },
-      {
-        id:3,
         subject: 'Science',
-        grade: 'B'
+        grade: 'C'
       }
     ]
   },
   {
     id: 3,
-    firstName: 'Jared',
+    firstName: 'Carl',
     lastName: 'Fipps',
     courses: [
       {
-        id:1,
+        id:0,
         subject: 'Math',
-        grade: 'C'
+        grade: 'D'
+      },
+      {
+        id:1,
+        subject: 'English',
+        grade: 'A'
       },
       {
         id:2,
-        subject: 'English',
-        grade: 'C'
-      },
-      {
-        id:3,
         subject: 'Science',
-        grade: 'C'
+        grade: 'D'
       }
     ]
   },
   {
     id: 4,
-    firstName: 'Carl',
-    lastName: 'Fipps',
+    firstName: 'Jillian',
+    lastName: 'Infusino',
     courses: [
       {
+        id:0,
+        subject: 'Health Science',
+        grade: 'A'
+      },
+      {
         id:1,
-        subject: 'Math',
-        grade: 'C'
+        subject: 'Biology',
+        grade: 'A'
       },
       {
         id:2,
-        subject: 'English',
-        grade: 'C'
-      },
-      {
-        id:3,
-        subject: 'Science',
-        grade: 'C'
+        subject: 'Medical',
+        grade: 'A'
       }
     ]
   }

@@ -10,7 +10,7 @@ class App extends Component {
       super(props)
       this.state = {
           filterText: '',
-          favorites: [1,2,3]
+          selectedStudent:''
       }
     }
 
@@ -19,6 +19,15 @@ class App extends Component {
         filterText: value
       });
     }
+
+    selectStudent(id) {
+      console.log(id)
+      this.setState({
+        selectedStudent: id
+      })
+    }
+
+
   render() {
     //console.log('filterText state from parent component', this.state.filterText)
     return(
@@ -36,15 +45,19 @@ class App extends Component {
             <StudentsFound
             data={this.props.data}
             filterText={this.state.filterText}
+            selectStudent={this.selectStudent.bind(this)}
             />
           </div>
 
+
           <div className="bottom-right-box">
-              <GradeTable
-                data={this.props.data}
-                favorites={this.state.favorites}
-              />
+            <GradeTable
+              data={this.props.data}
+              selectedStudent={this.state.selectedStudent}
+            />
           </div>
+
+
         </div>
       </div>
     )
